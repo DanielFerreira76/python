@@ -1,0 +1,7 @@
+n = float(input('\033[0;34mDigite um valor em metros: '))
+print('{} metros equivalem a: {} km;'.format(n, n / 1000))
+print('{} metros equivalem a: {} hm;'.format(n, n / 100))
+print('{} metros equivalem a: {} dam;'.format(n, n / 10))
+print('{} metros equivalem a: {:.0f} dm;'.format(n, n * 10))
+print('{} metros equivalem a: {:.0f} cm;'.format(n, n * 100))
+print('{} metros equivalem a: {:.0f} mm;'.format(n, n * 1000))
