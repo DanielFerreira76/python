@@ -1,6 +1,3 @@
-# Código escrito por amor.
-# Por ela. Pela nossa vida. Pelo futuro.
-
 from random import randint
 from time import sleep
 from operator import itemgetter

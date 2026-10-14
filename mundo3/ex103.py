@@ -1,6 +1,3 @@
-# Código escrito por amor.
-# Por ela. Pela nossa vida. Pelo futuro
-
 # Funções
 def ficha(nome='<desconhecido>', gols=0):
     if nome.strip() == '':

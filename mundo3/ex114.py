@@ -1,6 +1,3 @@
-# Código escrito por amor.
-# Por ela. Pela nossa vida. Pelo futuro
-
 # Importações
 from urllib import error
 import urllib.request

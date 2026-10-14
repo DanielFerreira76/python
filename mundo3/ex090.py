@@ -1,6 +1,3 @@
-# Código escrito por amor.
-# Por ela. Pela nossa vida. Pelo futuro.
-
 # Ler dados do aluno
 aluno = {'nome': str(input('\033[0;34mNome: ').strip().title())}
 while True:

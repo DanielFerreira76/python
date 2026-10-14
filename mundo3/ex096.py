@@ -1,6 +1,3 @@
-# Código escrito por amor.
-# Por ela. Pela nossa vida. Pelo futuro.
-
 # Declarar funções
 def area(a, b):
     t = a * b

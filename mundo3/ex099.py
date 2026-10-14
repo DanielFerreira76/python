@@ -1,6 +1,3 @@
-# Código escrito por amor.
-# Por ela. Pela nossa vida. Pelo futuro.
-
 # Função
 def maior(*n):
     print('\033[1;35mAnalisando os valores passados...')
