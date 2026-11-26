@@ -1,0 +1,24 @@
+class ContaBancaria:
+    def __init__(self, id, titular, saldo=0):
+        self.id = id
+        self.titular = titular
+        self.saldo = saldo
+    
+    def depositar(self, valor):
+        self.saldo += valor
+        print(f"Depósito de R$ {valor:.2f} autorizado na conta {self.id}.")
+
+    def sacar(self, valor):
+        if valor > self.saldo:
+            print(f"Saque negado de R${valor:.2f} na conta {self.id}. Saldo insuficiente.")
+        else:
+            self.saldo -= valor
+            print(f"Saque de R${valor:.2f} autorizado na conta {self.id}.")
+
+    def __str__(self):
+        return f"A conta {self.id} de {self.titular} tem R${self.saldo:,.2f} de saldo."
+
+c1 = ContaBancaria(1206, "Daniel", 3000)
+c1.depositar(500)
+c1.sacar(2000)
+print(c1)
